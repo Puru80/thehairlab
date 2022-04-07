@@ -2,6 +2,7 @@ package com.example.thehairlabrevisited.product;
 
 import com.example.thehairlabrevisited.Category;
 import lombok.AllArgsConstructor;
+import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.stereotype.Service;
 
 import java.util.*;
@@ -11,6 +12,7 @@ import java.util.*;
 public class ProductService {
 
     private final ProductRepository productRepository;
+    private final MongoTemplate mongoTemplate;
 
     private final List<Category> categories = List.of(Category.HAIR,
             Category.COLOUR_TEXTURE,
@@ -47,6 +49,19 @@ public class ProductService {
 
         return map;
     }
+
+    /*
+    public void updatePrice(){
+        Currency currency = Currency.getInstance("INR");
+
+        List<Product> productList = productRepository.findAll();
+
+        for (Product p : productList) {
+            p.setPrice(currency.getSymbol() + p.getPrice());
+        }
+
+        productRepository.saveAll(productList);
+    }*/
 
     //TODO: Edit Form
     /*public void updateService(Product product){
