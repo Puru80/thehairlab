@@ -1,0 +1,865 @@
+[{
+  "_id": {
+    "$oid": "6136eb09a4e16461586e0150"
+  },
+  "serviceName": "Hair Cut Male",
+  "category": "HAIR",
+  "price": "250",
+  "_class": "com.puru80.thehairlab.backend.product.Product"
+},{
+  "_id": {
+    "$oid": "6136eb09a4e16461586e0151"
+  },
+  "serviceName": "Beard Trim",
+  "category": "HAIR",
+  "price": "150",
+  "_class": "com.puru80.thehairlab.backend.product.Product"
+},{
+  "_id": {
+    "$oid": "6136eb09a4e16461586e0152"
+  },
+  "serviceName": "Hair Cut Female",
+  "category": "HAIR",
+  "price": "600",
+  "_class": "com.puru80.thehairlab.backend.product.Product"
+},{
+  "_id": {
+    "$oid": "6136eb09a4e16461586e0153"
+  },
+  "serviceName": "Flicks",
+  "category": "HAIR",
+  "price": "200",
+  "_class": "com.puru80.thehairlab.backend.product.Product"
+},{
+  "_id": {
+    "$oid": "6136eb09a4e16461586e0154"
+  },
+  "serviceName": "Blow Dry",
+  "category": "HAIR",
+  "price": "250",
+  "_class": "com.puru80.thehairlab.backend.product.Product"
+},{
+  "_id": {
+    "$oid": "6136eb0aa4e16461586e0155"
+  },
+  "serviceName": "Hair Wash Blast Dry",
+  "category": "HAIR",
+  "price": "300",
+  "_class": "com.puru80.thehairlab.backend.product.Product"
+},{
+  "_id": {
+    "$oid": "6136eb0aa4e16461586e0156"
+  },
+  "serviceName": "Hair Wash & Blow Dry",
+  "category": "HAIR",
+  "price": "400",
+  "_class": "com.puru80.thehairlab.backend.product.Product"
+},{
+  "_id": {
+    "$oid": "6136eb0aa4e16461586e0157"
+  },
+  "serviceName": "Ironing",
+  "category": "HAIR",
+  "price": "700",
+  "_class": "com.puru80.thehairlab.backend.product.Product"
+},{
+  "_id": {
+    "$oid": "6136eb0aa4e16461586e0158"
+  },
+  "serviceName": "Tongs",
+  "category": "HAIR",
+  "price": "700",
+  "_class": "com.puru80.thehairlab.backend.product.Product"
+},{
+  "_id": {
+    "$oid": "6136eb0aa4e16461586e0159"
+  },
+  "serviceName": "Crimping",
+  "category": "HAIR",
+  "price": "700",
+  "_class": "com.puru80.thehairlab.backend.product.Product"
+},{
+  "_id": {
+    "$oid": "6136eb0aa4e16461586e015a"
+  },
+  "serviceName": "Colour Per Streak",
+  "category": "COLOUR_TEXTURE",
+  "price": "500",
+  "_class": "com.puru80.thehairlab.backend.product.Product"
+},{
+  "_id": {
+    "$oid": "6136eb0aa4e16461586e015b"
+  },
+  "serviceName": "Loreal Hair Colour MALE",
+  "category": "COLOUR_TEXTURE",
+  "price": "700",
+  "_class": "com.puru80.thehairlab.backend.product.Product"
+},{
+  "_id": {
+    "$oid": "6136eb0aa4e16461586e015c"
+  },
+  "serviceName": "Loreal Globle Hair Colour",
+  "category": "COLOUR_TEXTURE",
+  "price": "2500",
+  "_class": "com.puru80.thehairlab.backend.product.Product"
+},{
+  "_id": {
+    "$oid": "6136eb0aa4e16461586e015d"
+  },
+  "serviceName": "Loreal Highlights",
+  "category": "COLOUR_TEXTURE",
+  "price": "2500",
+  "_class": "com.puru80.thehairlab.backend.product.Product"
+},{
+  "_id": {
+    "$oid": "6136eb0aa4e16461586e015e"
+  },
+  "serviceName": "Loreal Touch Up Majirel",
+  "category": "COLOUR_TEXTURE",
+  "price": "1000",
+  "_class": "com.puru80.thehairlab.backend.product.Product"
+},{
+  "_id": {
+    "$oid": "6136eb0aa4e16461586e015f"
+  },
+  "serviceName": "Loreal Touch Up Inoa",
+  "category": "COLOUR_TEXTURE",
+  "price": "1100",
+  "_class": "com.puru80.thehairlab.backend.product.Product"
+},{
+  "_id": {
+    "$oid": "6136eb0aa4e16461586e0160"
+  },
+  "serviceName": "Loreal Smoothening / Straightening / Rebonding",
+  "category": "COLOUR_TEXTURE",
+  "price": "5000",
+  "_class": "com.puru80.thehairlab.backend.product.Product"
+},{
+  "_id": {
+    "$oid": "6136eb0aa4e16461586e0161"
+  },
+  "serviceName": "Loreal Hair Spa MALE",
+  "category": "LOREAL_HAIR_TREATMENTS",
+  "price": "500",
+  "_class": "com.puru80.thehairlab.backend.product.Product"
+},{
+  "_id": {
+    "$oid": "6136eb0aa4e16461586e0162"
+  },
+  "serviceName": "Loreal Hair Spa",
+  "category": "LOREAL_HAIR_TREATMENTS",
+  "price": "1000",
+  "_class": "com.puru80.thehairlab.backend.product.Product"
+},{
+  "_id": {
+    "$oid": "6136eb0aa4e16461586e0163"
+  },
+  "serviceName": "Loreal Power Mix",
+  "category": "LOREAL_HAIR_TREATMENTS",
+  "price": "500",
+  "_class": "com.puru80.thehairlab.backend.product.Product"
+},{
+  "_id": {
+    "$oid": "6136eb0aa4e16461586e0164"
+  },
+  "serviceName": "Loreal Smart Bond",
+  "category": "LOREAL_HAIR_TREATMENTS",
+  "price": "500",
+  "_class": "com.puru80.thehairlab.backend.product.Product"
+},{
+  "_id": {
+    "$oid": "6136eb0aa4e16461586e0165"
+  },
+  "serviceName": "Loreal Anti Dandruff Treatment",
+  "category": "LOREAL_HAIR_TREATMENTS",
+  "price": "600",
+  "_class": "com.puru80.thehairlab.backend.product.Product"
+},{
+  "_id": {
+    "$oid": "6136eb0aa4e16461586e0166"
+  },
+  "serviceName": "Loreal Mythic Oil Ritual",
+  "category": "LOREAL_HAIR_TREATMENTS",
+  "price": "1500",
+  "_class": "com.puru80.thehairlab.backend.product.Product"
+},{
+  "_id": {
+    "$oid": "6136eb0aa4e16461586e0167"
+  },
+  "serviceName": "Lotus Magic Mask",
+  "category": "LOTUS_FACIALS",
+  "price": "500",
+  "_class": "com.puru80.thehairlab.backend.product.Product"
+},{
+  "_id": {
+    "$oid": "6136eb0aa4e16461586e0168"
+  },
+  "serviceName": "Lotus Clean Up",
+  "category": "LOTUS_FACIALS",
+  "price": "500",
+  "_class": "com.puru80.thehairlab.backend.product.Product"
+},{
+  "_id": {
+    "$oid": "6136eb0aa4e16461586e0169"
+  },
+  "serviceName": "Lotus Expree Facial",
+  "category": "LOTUS_FACIALS",
+  "price": "850",
+  "_class": "com.puru80.thehairlab.backend.product.Product"
+},{
+  "_id": {
+    "$oid": "6136eb0aa4e16461586e016a"
+  },
+  "serviceName": "Lotus Insta Fair Facial",
+  "category": "LOTUS_FACIALS",
+  "price": "2000",
+  "_class": "com.puru80.thehairlab.backend.product.Product"
+},{
+  "_id": {
+    "$oid": "6136eb0ba4e16461586e016b"
+  },
+  "serviceName": "Lotus Acnex Facial",
+  "category": "LOTUS_FACIALS",
+  "price": "2000",
+  "_class": "com.puru80.thehairlab.backend.product.Product"
+},{
+  "_id": {
+    "$oid": "6136eb0ba4e16461586e016c"
+  },
+  "serviceName": "Lotus Glowdermine Facial",
+  "category": "LOTUS_FACIALS",
+  "price": "1800",
+  "_class": "com.puru80.thehairlab.backend.product.Product"
+},{
+  "_id": {
+    "$oid": "6136eb0ba4e16461586e016d"
+  },
+  "serviceName": "Lotus Dipigmentone Facial",
+  "category": "LOTUS_FACIALS",
+  "price": "2000",
+  "_class": "com.puru80.thehairlab.backend.product.Product"
+},{
+  "_id": {
+    "$oid": "6136eb0ba4e16461586e016e"
+  },
+  "serviceName": "Lotus Goldsheen Facial",
+  "category": "LOTUS_FACIALS",
+  "price": "2400",
+  "_class": "com.puru80.thehairlab.backend.product.Product"
+},{
+  "_id": {
+    "$oid": "6136eb0ba4e16461586e016f"
+  },
+  "serviceName": "Lotus 4 Layer Advance Facial",
+  "category": "LOTUS_FACIALS",
+  "price": "2700",
+  "_class": "com.puru80.thehairlab.backend.product.Product"
+},{
+  "_id": {
+    "$oid": "6136eb0ba4e16461586e0170"
+  },
+  "serviceName": "Lotus Preservita Bearberry Facial",
+  "category": "LOTUS_FACIALS",
+  "price": "3100",
+  "_class": "com.puru80.thehairlab.backend.product.Product"
+},{
+  "_id": {
+    "$oid": "6136eb0ba4e16461586e0171"
+  },
+  "serviceName": "Lotus Preservita Kiwi Fruit Facial",
+  "category": "LOTUS_FACIALS",
+  "price": "3300",
+  "_class": "com.puru80.thehairlab.backend.product.Product"
+},{
+  "_id": {
+    "$oid": "6136eb0ba4e16461586e0172"
+  },
+  "serviceName": "Lotus Preservita Papaya Facial",
+  "category": "LOTUS_FACIALS",
+  "price": "3100",
+  "_class": "com.puru80.thehairlab.backend.product.Product"
+},{
+  "_id": {
+    "$oid": "6136eb0ba4e16461586e0173"
+  },
+  "serviceName": "Lotus Preservita Pineapple Facial",
+  "category": "LOTUS_FACIALS",
+  "price": "3000",
+  "_class": "com.puru80.thehairlab.backend.product.Product"
+},{
+  "_id": {
+    "$oid": "6136eb0ba4e16461586e0174"
+  },
+  "serviceName": "Lotus Face Spa Brazilian Anti-Ageing",
+  "category": "LOTUS_FACIALS",
+  "price": "3200",
+  "_class": "com.puru80.thehairlab.backend.product.Product"
+},{
+  "_id": {
+    "$oid": "6136eb0ba4e16461586e0175"
+  },
+  "serviceName": "Lotus Face Spa Bulgarian Rose",
+  "category": "LOTUS_FACIALS",
+  "price": "3200",
+  "_class": "com.puru80.thehairlab.backend.product.Product"
+},{
+  "_id": {
+    "$oid": "6136eb0ba4e16461586e0176"
+  },
+  "serviceName": "Lotus Face Spa Japanese Sakura",
+  "category": "LOTUS_FACIALS",
+  "price": "3200",
+  "_class": "com.puru80.thehairlab.backend.product.Product"
+},{
+  "_id": {
+    "$oid": "6136eb0ba4e16461586e0177"
+  },
+  "serviceName": "Nail Cut File Polish",
+  "category": "NAIL_SERVICES",
+  "price": "150",
+  "_class": "com.puru80.thehairlab.backend.product.Product"
+},{
+  "_id": {
+    "$oid": "6136eb0ba4e16461586e0178"
+  },
+  "serviceName": "Manicure",
+  "category": "NAIL_SERVICES",
+  "price": "350",
+  "_class": "com.puru80.thehairlab.backend.product.Product"
+},{
+  "_id": {
+    "$oid": "6136eb0ba4e16461586e0179"
+  },
+  "serviceName": "Herbal Spa Manicure",
+  "category": "NAIL_SERVICES",
+  "price": "500",
+  "_class": "com.puru80.thehairlab.backend.product.Product"
+},{
+  "_id": {
+    "$oid": "6136eb0ba4e16461586e017a"
+  },
+  "serviceName": "Crystal Spa Manicure",
+  "category": "NAIL_SERVICES",
+  "price": "800",
+  "_class": "com.puru80.thehairlab.backend.product.Product"
+},{
+  "_id": {
+    "$oid": "6136eb0ba4e16461586e017b"
+  },
+  "serviceName": "Lemon Spa Manicure",
+  "category": "NAIL_SERVICES",
+  "price": "1000",
+  "_class": "com.puru80.thehairlab.backend.product.Product"
+},{
+  "_id": {
+    "$oid": "6136eb0ba4e16461586e017c"
+  },
+  "serviceName": "Pedicure",
+  "category": "NAIL_SERVICES",
+  "price": "500",
+  "_class": "com.puru80.thehairlab.backend.product.Product"
+},{
+  "_id": {
+    "$oid": "6136eb0ba4e16461586e017d"
+  },
+  "serviceName": "Herbal Spa Pedicure",
+  "category": "NAIL_SERVICES",
+  "price": "800",
+  "_class": "com.puru80.thehairlab.backend.product.Product"
+},{
+  "_id": {
+    "$oid": "6136eb0ba4e16461586e017e"
+  },
+  "serviceName": "Crystal Spa Pedicure",
+  "category": "NAIL_SERVICES",
+  "price": "1100",
+  "_class": "com.puru80.thehairlab.backend.product.Product"
+},{
+  "_id": {
+    "$oid": "6136eb0ba4e16461586e017f"
+  },
+  "serviceName": "Lemon Spa Pedicure",
+  "category": "NAIL_SERVICES",
+  "price": "1500",
+  "_class": "com.puru80.thehairlab.backend.product.Product"
+},{
+  "_id": {
+    "$oid": "6136eb0ca4e16461586e0180"
+  },
+  "serviceName": "Threading Eye Brows",
+  "category": "THREADING",
+  "price": "50",
+  "_class": "com.puru80.thehairlab.backend.product.Product"
+},{
+  "_id": {
+    "$oid": "6136eb0ca4e16461586e0181"
+  },
+  "serviceName": "Threading Forehead",
+  "category": "THREADING",
+  "price": "30",
+  "_class": "com.puru80.thehairlab.backend.product.Product"
+},{
+  "_id": {
+    "$oid": "6136eb0ca4e16461586e0182"
+  },
+  "serviceName": "Threading Upper Lips",
+  "category": "THREADING",
+  "price": "20",
+  "_class": "com.puru80.thehairlab.backend.product.Product"
+},{
+  "_id": {
+    "$oid": "6136eb0ca4e16461586e0183"
+  },
+  "serviceName": "Threading Chin",
+  "category": "THREADING",
+  "price": "20",
+  "_class": "com.puru80.thehairlab.backend.product.Product"
+},{
+  "_id": {
+    "$oid": "6136eb0ca4e16461586e0184"
+  },
+  "serviceName": "Threading Lower Lips",
+  "category": "THREADING",
+  "price": "20",
+  "_class": "com.puru80.thehairlab.backend.product.Product"
+},{
+  "_id": {
+    "$oid": "6136eb0ca4e16461586e0185"
+  },
+  "serviceName": "Threading Jaw Line",
+  "category": "THREADING",
+  "price": "50",
+  "_class": "com.puru80.thehairlab.backend.product.Product"
+},{
+  "_id": {
+    "$oid": "6136eb0ca4e16461586e0186"
+  },
+  "serviceName": "Threading Neck",
+  "category": "THREADING",
+  "price": "50",
+  "_class": "com.puru80.thehairlab.backend.product.Product"
+},{
+  "_id": {
+    "$oid": "6136eb0ca4e16461586e0187"
+  },
+  "serviceName": "Threading Full Face",
+  "category": "THREADING",
+  "price": "200",
+  "_class": "com.puru80.thehairlab.backend.product.Product"
+},{
+  "_id": {
+    "$oid": "6136eb0ca4e16461586e0188"
+  },
+  "serviceName": "Bleach Face And Neck",
+  "category": "BLEACH_SKIN_POLISH",
+  "price": "300",
+  "_class": "com.puru80.thehairlab.backend.product.Product"
+},{
+  "_id": {
+    "$oid": "6136eb0ca4e16461586e0189"
+  },
+  "serviceName": "Bleach/Under Arms/Feet/Palms",
+  "category": "BLEACH_SKIN_POLISH",
+  "price": "100",
+  "_class": "com.puru80.thehairlab.backend.product.Product"
+},{
+  "_id": {
+    "$oid": "6136eb0ca4e16461586e018a"
+  },
+  "serviceName": "Bleach Full Front / Full Back",
+  "category": "BLEACH_SKIN_POLISH",
+  "price": "500",
+  "_class": "com.puru80.thehairlab.backend.product.Product"
+},{
+  "_id": {
+    "$oid": "6136eb0ca4e16461586e018b"
+  },
+  "serviceName": "Bleach Half Front/Half Back",
+  "category": "BLEACH_SKIN_POLISH",
+  "price": "250",
+  "_class": "com.puru80.thehairlab.backend.product.Product"
+},{
+  "_id": {
+    "$oid": "6136eb0ca4e16461586e018c"
+  },
+  "serviceName": "Bleach Full Arms",
+  "category": "BLEACH_SKIN_POLISH",
+  "price": "400",
+  "_class": "com.puru80.thehairlab.backend.product.Product"
+},{
+  "_id": {
+    "$oid": "6136eb0ca4e16461586e018d"
+  },
+  "serviceName": "Bleach Half Arms",
+  "category": "BLEACH_SKIN_POLISH",
+  "price": "200",
+  "_class": "com.puru80.thehairlab.backend.product.Product"
+},{
+  "_id": {
+    "$oid": "6136eb0ca4e16461586e018e"
+  },
+  "serviceName": "Bleach Full Legs",
+  "category": "BLEACH_SKIN_POLISH",
+  "price": "700",
+  "_class": "com.puru80.thehairlab.backend.product.Product"
+},{
+  "_id": {
+    "$oid": "6136eb0ca4e16461586e018f"
+  },
+  "serviceName": "Bleach Half Legs",
+  "category": "BLEACH_SKIN_POLISH",
+  "price": "350",
+  "_class": "com.puru80.thehairlab.backend.product.Product"
+},{
+  "_id": {
+    "$oid": "6136eb0ca4e16461586e0190"
+  },
+  "serviceName": "Bleach Stomach",
+  "category": "BLEACH_SKIN_POLISH",
+  "price": "300",
+  "_class": "com.puru80.thehairlab.backend.product.Product"
+},{
+  "_id": {
+    "$oid": "6136eb0ca4e16461586e0191"
+  },
+  "serviceName": "Bleach Full Body (Fa, Ua, Fl, Fb, FN)",
+  "category": "BLEACH_SKIN_POLISH",
+  "price": "2500",
+  "_class": "com.puru80.thehairlab.backend.product.Product"
+},{
+  "_id": {
+    "$oid": "6136eb0ca4e16461586e0192"
+  },
+  "serviceName": "D Tan Face And Neck",
+  "category": "BLEACH_SKIN_POLISH",
+  "price": "300",
+  "_class": "com.puru80.thehairlab.backend.product.Product"
+},{
+  "_id": {
+    "$oid": "6136f7e7a0ba39175e192dd3"
+  },
+  "serviceName": "D Tan Feet / Palms",
+  "category": "BLEACH_SKIN_POLISH",
+  "price": "200",
+  "_class": "com.puru80.thehairlab.backend.product.Product"
+},{
+  "_id": {
+    "$oid": "6136f7e8a0ba39175e192dd4"
+  },
+  "serviceName": "D Tan Under Arms",
+  "category": "BLEACH_SKIN_POLISH",
+  "price": "150",
+  "_class": "com.puru80.thehairlab.backend.product.Product"
+},{
+  "_id": {
+    "$oid": "6136f7e8a0ba39175e192dd5"
+  },
+  "serviceName": "D Tan Full Front / Full Back",
+  "category": "BLEACH_SKIN_POLISH",
+  "price": "600",
+  "_class": "com.puru80.thehairlab.backend.product.Product"
+},{
+  "_id": {
+    "$oid": "6136f7e8a0ba39175e192dd6"
+  },
+  "serviceName": "D Tan Half Front / Half Back",
+  "category": "BLEACH_SKIN_POLISH",
+  "price": "350",
+  "_class": "com.puru80.thehairlab.backend.product.Product"
+},{
+  "_id": {
+    "$oid": "6136f7e8a0ba39175e192dd7"
+  },
+  "serviceName": "D Tan Full Arms",
+  "category": "BLEACH_SKIN_POLISH",
+  "price": "600",
+  "_class": "com.puru80.thehairlab.backend.product.Product"
+},{
+  "_id": {
+    "$oid": "6136f7e8a0ba39175e192dd8"
+  },
+  "serviceName": "D Tan Half Arms",
+  "category": "BLEACH_SKIN_POLISH",
+  "price": "300",
+  "_class": "com.puru80.thehairlab.backend.product.Product"
+},{
+  "_id": {
+    "$oid": "6136f7e8a0ba39175e192dd9"
+  },
+  "serviceName": "D Tan Full Legs",
+  "category": "BLEACH_SKIN_POLISH",
+  "price": "1000",
+  "_class": "com.puru80.thehairlab.backend.product.Product"
+},{
+  "_id": {
+    "$oid": "6136f7e8a0ba39175e192dda"
+  },
+  "serviceName": "D Tan Half Legs",
+  "category": "BLEACH_SKIN_POLISH",
+  "price": "600",
+  "_class": "com.puru80.thehairlab.backend.product.Product"
+},{
+  "_id": {
+    "$oid": "6136f7e8a0ba39175e192ddb"
+  },
+  "serviceName": "D Tan Stomach",
+  "category": "BLEACH_SKIN_POLISH",
+  "price": "500",
+  "_class": "com.puru80.thehairlab.backend.product.Product"
+},{
+  "_id": {
+    "$oid": "6136f7e8a0ba39175e192ddc"
+  },
+  "serviceName": "D Tan Full Body(Fa, Ua, Fl, Fb, FN)",
+  "category": "BLEACH_SKIN_POLISH",
+  "price": "3500",
+  "_class": "com.puru80.thehairlab.backend.product.Product"
+},{
+  "_id": {
+    "$oid": "6136f7e8a0ba39175e192ddd"
+  },
+  "serviceName": "Sugar Waxing Chin/Forehead/Upper Lip",
+  "category": "WAXING",
+  "price": "50",
+  "_class": "com.puru80.thehairlab.backend.product.Product"
+},{
+  "_id": {
+    "$oid": "6136f7e8a0ba39175e192dde"
+  },
+  "serviceName": "Sugar Waxing Face",
+  "category": "WAXING",
+  "price": "300",
+  "_class": "com.puru80.thehairlab.backend.product.Product"
+},{
+  "_id": {
+    "$oid": "6136f7e8a0ba39175e192ddf"
+  },
+  "serviceName": "Sugar Waxing Under Arms",
+  "category": "WAXING",
+  "price": "50",
+  "_class": "com.puru80.thehairlab.backend.product.Product"
+},{
+  "_id": {
+    "$oid": "6136f7e8a0ba39175e192de0"
+  },
+  "serviceName": "Sugar Waxing Full Arms",
+  "category": "WAXING",
+  "price": "200",
+  "_class": "com.puru80.thehairlab.backend.product.Product"
+},{
+  "_id": {
+    "$oid": "6136f7e8a0ba39175e192de1"
+  },
+  "serviceName": "Sugar Waxing Half Arms",
+  "category": "WAXING",
+  "price": "100",
+  "_class": "com.puru80.thehairlab.backend.product.Product"
+},{
+  "_id": {
+    "$oid": "6136f7e8a0ba39175e192de2"
+  },
+  "serviceName": "Sugar Waxing Full Legs",
+  "category": "WAXING",
+  "price": "400",
+  "_class": "com.puru80.thehairlab.backend.product.Product"
+},{
+  "_id": {
+    "$oid": "6136f7e8a0ba39175e192de3"
+  },
+  "serviceName": "Sugar Waxing Half Legs",
+  "category": "WAXING",
+  "price": "300",
+  "_class": "com.puru80.thehairlab.backend.product.Product"
+},{
+  "_id": {
+    "$oid": "6136f7e8a0ba39175e192de4"
+  },
+  "serviceName": "Sugar Waxing Stomach",
+  "category": "WAXING",
+  "price": "250",
+  "_class": "com.puru80.thehairlab.backend.product.Product"
+},{
+  "_id": {
+    "$oid": "6136f7e8a0ba39175e192de5"
+  },
+  "serviceName": "Sugar Waxing Full Front / Full Back",
+  "category": "WAXING",
+  "price": "500",
+  "_class": "com.puru80.thehairlab.backend.product.Product"
+},{
+  "_id": {
+    "$oid": "6136f7e9a0ba39175e192de6"
+  },
+  "serviceName": "Sugar Waxing Half Front / Half Back",
+  "category": "WAXING",
+  "price": "300",
+  "_class": "com.puru80.thehairlab.backend.product.Product"
+},{
+  "_id": {
+    "$oid": "6136f7e9a0ba39175e192de7"
+  },
+  "serviceName": "Premium Waxing Upper Lip / Chin / Forehead",
+  "category": "WAXING",
+  "price": "100",
+  "_class": "com.puru80.thehairlab.backend.product.Product"
+},{
+  "_id": {
+    "$oid": "6136f7e9a0ba39175e192de8"
+  },
+  "serviceName": "Premium Waxing Face",
+  "category": "WAXING",
+  "price": "500",
+  "_class": "com.puru80.thehairlab.backend.product.Product"
+},{
+  "_id": {
+    "$oid": "6136f7e9a0ba39175e192de9"
+  },
+  "serviceName": "Premium Waxing Under Arms",
+  "category": "WAXING",
+  "price": "100",
+  "_class": "com.puru80.thehairlab.backend.product.Product"
+},{
+  "_id": {
+    "$oid": "6136f7e9a0ba39175e192dea"
+  },
+  "serviceName": "Premium Waxing Full Arms",
+  "category": "WAXING",
+  "price": "400",
+  "_class": "com.puru80.thehairlab.backend.product.Product"
+},{
+  "_id": {
+    "$oid": "6136f7e9a0ba39175e192deb"
+  },
+  "serviceName": "Premium Waxing Half Arms",
+  "category": "WAXING",
+  "price": "200",
+  "_class": "com.puru80.thehairlab.backend.product.Product"
+},{
+  "_id": {
+    "$oid": "6136f7e9a0ba39175e192dec"
+  },
+  "serviceName": "Premium Waxing Full Legs",
+  "category": "WAXING",
+  "price": "600",
+  "_class": "com.puru80.thehairlab.backend.product.Product"
+},{
+  "_id": {
+    "$oid": "6136f7e9a0ba39175e192ded"
+  },
+  "serviceName": "Premium Waxing Half Legs",
+  "category": "WAXING",
+  "price": "400",
+  "_class": "com.puru80.thehairlab.backend.product.Product"
+},{
+  "_id": {
+    "$oid": "6136f7e9a0ba39175e192dee"
+  },
+  "serviceName": "Premium Waxing Stomach",
+  "category": "WAXING",
+  "price": "400",
+  "_class": "com.puru80.thehairlab.backend.product.Product"
+},{
+  "_id": {
+    "$oid": "6136f7e9a0ba39175e192def"
+  },
+  "serviceName": "Premium Waxing Full Front / Full Back",
+  "category": "WAXING",
+  "price": "600",
+  "_class": "com.puru80.thehairlab.backend.product.Product"
+},{
+  "_id": {
+    "$oid": "6136f7e9a0ba39175e192df0"
+  },
+  "serviceName": "Premium Waxing Half Front / Half Back",
+  "category": "WAXING",
+  "price": "400",
+  "_class": "com.puru80.thehairlab.backend.product.Product"
+},{
+  "_id": {
+    "$oid": "6136f7e9a0ba39175e192df1"
+  },
+  "serviceName": "Back Scrub / Hand Scrub / Leg Scrub",
+  "category": "BODY_ESSENTIALS",
+  "price": "500",
+  "_class": "com.puru80.thehairlab.backend.product.Product"
+},{
+  "_id": {
+    "$oid": "6136f7e9a0ba39175e192df2"
+  },
+  "serviceName": "Head Massage Male",
+  "category": "BODY_ESSENTIALS",
+  "price": "150",
+  "_class": "com.puru80.thehairlab.backend.product.Product"
+},{
+  "_id": {
+    "$oid": "6136f7e9a0ba39175e192df3"
+  },
+  "serviceName": "Head Massage Female",
+  "category": "BODY_ESSENTIALS",
+  "price": "300",
+  "_class": "com.puru80.thehairlab.backend.product.Product"
+},{
+  "_id": {
+    "$oid": "6136f7e9a0ba39175e192df4"
+  },
+  "serviceName": "Head Massage With (Mythic Oil)",
+  "category": "BODY_ESSENTIALS",
+  "price": "600",
+  "_class": "com.puru80.thehairlab.backend.product.Product"
+},{
+  "_id": {
+    "$oid": "6136f7e9a0ba39175e192df5"
+  },
+  "serviceName": "Hand Massage",
+  "category": "BODY_ESSENTIALS",
+  "price": "500",
+  "_class": "com.puru80.thehairlab.backend.product.Product"
+},{
+  "_id": {
+    "$oid": "6136f7e9a0ba39175e192df6"
+  },
+  "serviceName": "Leg Massage",
+  "category": "BODY_ESSENTIALS",
+  "price": "500",
+  "_class": "com.puru80.thehairlab.backend.product.Product"
+},{
+  "_id": {
+    "$oid": "6136f7e9a0ba39175e192df7"
+  },
+  "serviceName": "Foot Massage",
+  "category": "BODY_ESSENTIALS",
+  "price": "400",
+  "_class": "com.puru80.thehairlab.backend.product.Product"
+},{
+  "_id": {
+    "$oid": "6136f7e9a0ba39175e192df8"
+  },
+  "serviceName": "Back Massage",
+  "category": "BODY_ESSENTIALS",
+  "price": "500",
+  "_class": "com.puru80.thehairlab.backend.product.Product"
+},{
+  "_id": {
+    "$oid": "6136f7eaa0ba39175e192df9"
+  },
+  "serviceName": "Body Massage Male",
+  "category": "BODY_ESSENTIALS",
+  "price": "1000",
+  "_class": "com.puru80.thehairlab.backend.product.Product"
+},{
+  "_id": {
+    "$oid": "6136f7eaa0ba39175e192dfa"
+  },
+  "serviceName": "Body Massage Female",
+  "category": "BODY_ESSENTIALS",
+  "price": "1500",
+  "_class": "com.puru80.thehairlab.backend.product.Product"
+},{
+  "_id": {
+    "$oid": "6136f7eaa0ba39175e192dfb"
+  },
+  "serviceName": "Body Exfoliation",
+  "category": "BODY_ESSENTIALS",
+  "price": "1000",
+  "_class": "com.puru80.thehairlab.backend.product.Product"
+}]

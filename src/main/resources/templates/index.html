@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+        <!--<meta http-equiv="X-UA-Compatible" content="IE=edge">`
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+        <title>THE HAIR LAB</title>
+    </head>
+
+    <body>
+    <div class="header-container">
+        <div class="header1">
+            <h4 class="rel-left">||Jay Limbach||</h4>
+        </div>
+        <div class="header2">
+            <h1 class="logo">THE HAIR LAB</h1>
+            <h4 class="subtitle">Unisex Salon</h4>
+            <h4 class="timing">Open Everyday From 9AM to 8PM</h4>
+            <h4 class="project-title">Price Menu</h4>
+        </div>
+    </div>
+
+    <div class="service-layout">
+
+        <ol th:each="entry, stat : ${productMap}">
+            <table class="category">
+                <thead>
+                    <tr>
+                        <th scope="col" th:text="${entry.key}">category</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr th:each="service : ${entry.value}">
+                        <td class="service" th:text="${service.serviceName}"></td>
+                        <td class="price" th:text="${service.price}"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </ol>
+
+    </div>
+    </body>
+</html>

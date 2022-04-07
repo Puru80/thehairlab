@@ -1,0 +1,104 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.header-container{
+    margin: 0;
+    padding-top: 0;
+}
+
+.header1 {
+    display: flex;
+    padding-top: 20px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+    margin: 0;
+    justify-content: end;
+    background-color: black;
+}
+
+.header2 {
+    margin: 0;
+    padding-top: 0;
+    align-content: center;
+    background-color: black;
+    text-align: center;
+    vertical-align: top;
+    padding-bottom: 5px;
+}
+
+h4{
+    font-size: 17px;
+}
+
+.logo {
+    color: white;
+    font-family: "Elephant", serif;
+    font-size: 40px;
+    padding: 0;
+    margin: 0;
+}
+
+.subtitle {
+    color: white;
+    font-family: "Times New Roman", serif;
+    margin-top: 0;
+}
+
+.timing {
+    color: white;
+    font-family: "Times New Roman", serif;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.rel-left{
+    color: white;
+    margin: 0;
+    padding-top: 0;
+}
+
+.project-title{
+    color: white;
+    font-family: "Times New Roman", serif;
+    padding: 0;
+    margin: 0;
+}
+
+.service-layout {
+    padding-top: 20px;
+}
+
+.category{
+    border-style: double;
+    border-color: #1d1d2b;
+    border-width: 5px;
+    padding: 0 20px 20px;
+    margin: 0 auto 10px;
+}
+
+th{
+    display: flex;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 25px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+.service{
+    font-size: 15px;
+    text-align: start;
+    padding: 10px 0 5px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    width: 400px;
+}
+
+.price{
+    font-size: 15px;
+    text-align: start;
+    padding: 10px 0 5px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    width: 50px;
+}
