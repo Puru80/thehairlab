@@ -1,4 +1,4 @@
-package com.example.thehairlabrevisited;
+package com.example.thehairlabrevisited.api.enums;
 
 public enum Category {
     HAIR("HAIR*"),

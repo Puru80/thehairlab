@@ -1,7 +1,7 @@
 package com.example.thehairlabrevisited.product;
 
 
-import com.example.thehairlabrevisited.Category;
+import com.example.thehairlabrevisited.api.enums.Category;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

@@ -1,6 +1,6 @@
 package com.example.thehairlabrevisited.product;
 
-import com.example.thehairlabrevisited.Category;
+import com.example.thehairlabrevisited.api.enums.Category;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
 

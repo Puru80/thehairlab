@@ -1,6 +1,6 @@
 package com.example.thehairlabrevisited.product;
 
-import com.example.thehairlabrevisited.Category;
+import com.example.thehairlabrevisited.api.enums.Category;
 import lombok.AllArgsConstructor;
 import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.stereotype.Service;
@@ -25,11 +25,11 @@ public class ProductService {
             Category.BODY_ESSENTIALS
     );
 
-    public void insertData(List<Product> productList){
-        int i=0;
-        for(Product p: productList) {
-            if(productRepository.findProductsByCategoryAndServiceName(p.getCategory(),
-                    p.getServiceName()).size()>=1)
+    public void insertData(List<Product> productList) {
+        int i = 0;
+        for (Product p : productList) {
+            if (productRepository.findProductsByCategoryAndServiceName(p.getCategory(),
+                    p.getServiceName()).size() >= 1)
                 System.out.println("Product Already Exists");
             else {
                 System.out.println("Inserting Product " + (++i));
@@ -41,9 +41,9 @@ public class ProductService {
 
     }
 
-    public Map<Category, List<Product>> getProducts(){
+    public Map<Category, List<Product>> getProducts() {
         Map<Category, List<Product>> map = new LinkedHashMap<>();
-        for(Category c: categories) {
+        for (Category c : categories) {
             map.put(c, productRepository.findProductsByCategory(c));
         }
 
@@ -80,4 +80,21 @@ public class ProductService {
                 product.getServiceName());
         productRepository.delete(product);
     }*/
+
+    public List<String> getCategories() {
+        List<String> stringCategories = new ArrayList<>();
+
+        for (Category c : categories)
+            stringCategories.add(c.name());
+
+        return stringCategories;
+    }
+
+    public List<String> getServices(String category) {
+
+        return productRepository.findProductsByCategory(Category.valueOf(category))
+                .stream()
+                .map(product -> product.getServiceName())
+                .toList();
+    }
 }

@@ -9,10 +9,10 @@ import org.thymeleaf.spring6.view.ThymeleafViewResolver;
 import org.thymeleaf.templateresolver.ClassLoaderTemplateResolver;
 
 @SpringBootApplication
-public class ThehairlabRevisitedApplication {
+public class TheHairLabRevisitedApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(ThehairlabRevisitedApplication.class, args);
+        SpringApplication.run(TheHairLabRevisitedApplication.class, args);
     }
 
     @Bean

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="css/styles.css"/>
+		<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9613850176267563"
+				crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+		<title>THE HAIR LAB</title>
+	</head>
+
+    <body style="background-color: #f0f4c3">
+        <form class="service-layout" th:action="@{/save}" th:object="${product}" method="POST">
+            <table align="center">
+                <tr>
+                    <td>Category :</td>
+                    <td>
+                        <select id="category" name="category">
+                            <option value='-1'>SELECT CATEGORY</option>
+                            <option th:each="category : ${categoryOptions}" th:value="${category}" th:text="${category}"/>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Service :</td>
+                    <td>
+                        <select id="service" name="service">
+                            <option value='-1'>SELECT SERVICE</option>
+<!--                            <option th:each="category : ${categoryOptions}" th:text="${category}"/>-->
+                        </select>
+                    </td>
+                </tr>
+
+                <tr><td>Price: </td><td><input type="text" name="Price"></td></tr>
+
+                <tr>
+                    <td>
+                        <button type="submit">Submit</button>
+                    </td>
+                    <td></td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
+
