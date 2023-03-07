@@ -2,6 +2,7 @@ package com.example.thehairlabrevisited.product;
 
 import com.example.thehairlabrevisited.api.enums.Category;
 import lombok.AllArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.stereotype.Service;
 
@@ -9,6 +10,7 @@ import java.util.*;
 
 @Service
 @AllArgsConstructor
+@Slf4j
 public class ProductService {
 
     private final ProductRepository productRepository;
@@ -28,11 +30,11 @@ public class ProductService {
     public void insertData(List<Product> productList) {
         int i = 0;
         for (Product p : productList) {
-            if (productRepository.findProductsByCategoryAndServiceName(p.getCategory(),
-                    p.getServiceName()).size() >= 1)
-                System.out.println("Product Already Exists");
+            if (!productRepository.findProductsByCategoryAndServiceName(p.getCategory(),
+                    p.getServiceName()).isEmpty())
+                log.info("Product Already Exists");
             else {
-                System.out.println("Inserting Product " + (++i));
+                log.info("Inserting Product " + (++i));
                 Currency currency = Currency.getInstance("INR");
                 p.setPrice(currency.getSymbol() + p.getPrice());
                 productRepository.insert(p);
@@ -64,22 +66,22 @@ public class ProductService {
     }*/
 
     //TODO: Edit Form
-    /*public void updateService(Product product){
+    public void updateService(Product product) {
         Product p = productRepository.findProductByCategoryAndServiceName(product.getCategory(),
                 product.getServiceName());
-        if(p!=null) {
+
+        if (p != null) {
             p.setPrice(product.getPrice());
             productRepository.save(p);
-        }
-        else
+        } else
             productRepository.save(product);
     }
 
-    public void deleteService(Product product){
+    public void deleteService(Product product) {
         product = productRepository.findProductByCategoryAndServiceName(product.getCategory(),
                 product.getServiceName());
         productRepository.delete(product);
-    }*/
+    }
 
     public List<String> getCategories() {
         List<String> stringCategories = new ArrayList<>();

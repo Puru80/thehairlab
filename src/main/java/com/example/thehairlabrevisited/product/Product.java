@@ -2,16 +2,16 @@ package com.example.thehairlabrevisited.product;
 
 
 import com.example.thehairlabrevisited.api.enums.Category;
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-@Data
 @Document(collection = "product")
 @AllArgsConstructor
 @NoArgsConstructor
+@Builder
+@Setter
+@Getter
 public class Product {
 
     @Id

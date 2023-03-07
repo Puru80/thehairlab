@@ -48,6 +48,11 @@ public class ProductController {
 
     @PostMapping(value = "/save")
     public String save(@ModelAttribute ("product") ProductPOJO product, Model model) {
+        productService.updateService(Product.builder()
+                        .category(product.getCategory())
+                        .serviceName(product.getServiceName())
+                        .price(product.getPrice())
+                .build());
         return "redirect:/";
     }
 }
