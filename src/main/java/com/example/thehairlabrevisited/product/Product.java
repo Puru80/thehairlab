@@ -9,7 +9,6 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @Document(collection = "product")
 @AllArgsConstructor
 @NoArgsConstructor
-@Builder
 @Setter
 @Getter
 public class Product {

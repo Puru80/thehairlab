@@ -67,21 +67,27 @@ public class ProductService {
 
     //TODO: Edit Form
     public void updateService(Product product) {
+        log.info("Service: {}", product.getServiceName());
+
         Product p = productRepository.findProductByCategoryAndServiceName(product.getCategory(),
                 product.getServiceName());
 
         if (p != null) {
+            log.info("Saving product: {}", p);
+
             p.setPrice(product.getPrice());
             productRepository.save(p);
+
         } else
             productRepository.save(product);
     }
 
-    public void deleteService(Product product) {
+    //TODO: Add delete functionality
+    /*public void deleteService(Product product) {
         product = productRepository.findProductByCategoryAndServiceName(product.getCategory(),
                 product.getServiceName());
         productRepository.delete(product);
-    }
+    }*/
 
     public List<String> getCategories() {
         List<String> stringCategories = new ArrayList<>();

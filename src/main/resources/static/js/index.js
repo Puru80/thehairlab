@@ -12,7 +12,7 @@ $(document).ready(function() {
                 for (var i = 0; i < data.length; i++) {
                     options += "<option value='" + data[i] + "'>" + data[i] + "</option>";
                 }
-                $('#service').html(options);
+                $('#serviceName').html(options);
             },
             error: function() {
                 console.log("An error occurred while retrieving the services.");

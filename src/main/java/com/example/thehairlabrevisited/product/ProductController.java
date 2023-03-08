@@ -21,12 +21,12 @@ public class ProductController {
     private final ProductService productService;
 
     @PostMapping(path = "insert")
-    public void insertData(@RequestBody List<Product> productList){
+    public void insertData(@RequestBody List<Product> productList) {
         productService.insertData(productList);
     }
 
     @GetMapping({"/", "list"})
-    public ModelAndView getAllProducts(){
+    public ModelAndView getAllProducts() {
         ModelAndView mav = new ModelAndView("index");
         mav.addObject("productMap", productService.getProducts());
         return mav;
@@ -34,7 +34,6 @@ public class ProductController {
 
     @GetMapping(value = "/update")
     public String home(Model model) {
-        log.info("Update Page");
         List<String> options = productService.getCategories();
 
         model.addAttribute("categoryOptions", options);
@@ -47,12 +46,15 @@ public class ProductController {
     }
 
     @PostMapping(value = "/save")
-    public String save(@ModelAttribute ("product") ProductPOJO product, Model model) {
-        productService.updateService(Product.builder()
-                        .category(product.getCategory())
-                        .serviceName(product.getServiceName())
-                        .price(product.getPrice())
-                .build());
+    public String save(@ModelAttribute("product") ProductPOJO product, Model model) {
+        log.info("Product: {}", product.toString());
+
+        productService.updateService(new Product(
+                product.getServiceName(),
+                product.getCategory(),
+                product.getPrice()
+        ));
+
         return "redirect:/";
     }
 }
