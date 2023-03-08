@@ -72,10 +72,13 @@ public class ProductService {
         Product p = productRepository.findProductByCategoryAndServiceName(product.getCategory(),
                 product.getServiceName());
 
+        Currency currency = Currency.getInstance("INR");
+
         if (p != null) {
             log.info("Saving product: {}", p);
 
-            p.setPrice(product.getPrice());
+            p.setPrice(currency.getSymbol() + product.getPrice());
+//            p.setPrice(product.getPrice());
             productRepository.save(p);
 
         } else
