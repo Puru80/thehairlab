@@ -3,7 +3,6 @@ package com.example.thehairlabrevisited.product;
 import com.example.thehairlabrevisited.api.enums.Category;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.stereotype.Service;
 
 import java.util.*;
@@ -14,7 +13,6 @@ import java.util.*;
 public class ProductService {
 
     private final ProductRepository productRepository;
-    private final MongoTemplate mongoTemplate;
 
     private final List<Category> categories = List.of(Category.HAIR,
             Category.COLOUR_TEXTURE,
@@ -52,19 +50,6 @@ public class ProductService {
         return map;
     }
 
-    /*
-    public void updatePrice(){
-        Currency currency = Currency.getInstance("INR");
-
-        List<Product> productList = productRepository.findAll();
-
-        for (Product p : productList) {
-            p.setPrice(currency.getSymbol() + p.getPrice());
-        }
-
-        productRepository.saveAll(productList);
-    }*/
-
     //TODO: Edit Form
     public void updateService(Product product) {
         log.info("Service: {}", product.getServiceName());
@@ -78,7 +63,6 @@ public class ProductService {
             log.info("Saving product: {}", p);
 
             p.setPrice(currency.getSymbol() + product.getPrice());
-//            p.setPrice(product.getPrice());
             productRepository.save(p);
 
         } else
@@ -86,11 +70,6 @@ public class ProductService {
     }
 
     //TODO: Add delete functionality
-    /*public void deleteService(Product product) {
-        product = productRepository.findProductByCategoryAndServiceName(product.getCategory(),
-                product.getServiceName());
-        productRepository.delete(product);
-    }*/
 
     public List<String> getCategories() {
         List<String> stringCategories = new ArrayList<>();

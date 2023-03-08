@@ -8,8 +8,6 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 
-import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 @Controller
@@ -47,8 +45,6 @@ public class ProductController {
 
     @PostMapping(value = "/save")
     public String save(@ModelAttribute("product") ProductPOJO product, Model model) {
-        log.info("Product: {}", product.toString());
-
         productService.updateService(new Product(
                 product.getServiceName(),
                 product.getCategory(),
